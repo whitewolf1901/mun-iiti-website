@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121576239-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121576239-2');
+    </script>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Model United Nations IIT Indore">
+    <meta name="keywords" content="MUN, Model United Nations, IIT Indore">
+    <meta name="author" content="Shankar">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title>Payment</title>
+    <!-- ========== Favicon Ico ========== -->
+    <link rel="icon" href="assets/favicon (1).ico">
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/form.css" rel="stylesheet">
+    <link href="assets/css/payment.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="form-title">
+      <a href="home.html">
+        <img src="logo.png" alt="">
+      </a>
+      <h1>Payment Info</h1>
+    </div>
+    <div class="form-container">
+      <form action="index.html" method="post">
+        <div class="payment-details">
+          <table>
+            <tr>
+              <td  style="width: 50%;">Mode of MUN:</td><td name="mode">ONLINE</td>
+            </tr>
+            <tr>
+              <td  style="width: 50%;">Amount to be paid:</td><td name="amount">Rs. 400</td>
+            </tr>
+            <tr>
+              <td  style="width: 50%;">Amount in words:</td><td name="words">Rupees four hundred only</td>
+            </tr>
+          </table>
+
+          <div class="account-details">
+            <h2>Bank Details</h2>
+            <table>
+              <tr>
+                <td>Account Name:</td><td>STUDENT GYMKHANA IIT INDORE</td>
+              </tr>
+              <tr>
+                <td>Account Number:</td><td>6223101000729</td>
+              </tr>
+              <tr>
+                <td>IFSC:</td><td>CNRB0006223</td>
+              </tr>
+            </table>
+            <div class="qr">
+              <img src="assets/img/qrcode.png" alt="" style="width: 250px">
+              <p style="font-weight: bold">QR Code for UPI transactions</p>
+            </div>
+
+          </div>
+
+          <div class="proof">
+
+            <div class="form-grp">
+              <label for="screenshot">Upload proof of payment/Screenshot</label>
+              <input type="file" id="screenshot" accept="image/*" name="screenshot" required>
+            </div>
+            <div class="form-grp">
+              <label for="name">Full Name registered <span>(required)</span></label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-grp">
+              <label for="transactionID">Transaction ID <span>(required)</span></label>
+              <input type="text" name="transaction" id="transactionID" required>
+            </div>
+            <div class="btn-grp">
+              <button type="submit" class="submit">SUBMIT</button>
+            </div>
+
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/scroll.js"></script>
+  </body>
+</html>
